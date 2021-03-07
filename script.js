@@ -111,7 +111,7 @@ five.addEventListener("click", melee);
 function fire() {
     if (message.classList.contains("firstEncounter") && message.classList.contains("predatorTank")
         ||(message.classList.contains("terminators")&& message.classList.contains("firstEncounter")) || (message.classList.contains("tacticalSquad") && message.classList.contains("firstEncounter"))) {
-        message.innerHTML = "Twój oddział bez problemu radzi sobie z wrogimi zwiadowcami pozbywając się ich z bezpiecznej odległości. Dzięki ich odwadcze i Twoim niewątpliwym umiejętnościom przywódczym zdradziecki oddział został rozniesiony w pył. Taki los spotka każdego zdrajcę! Niestety w tej chwili usłyszałeś potęgujący warkot silników zwiastujących nadciągające ogromne siły pancerne Horusa. Jakie są Twoje następne rozkazy dla naszych żołnierzy?";
+        message.innerHTML = "Twój oddział bez problemu radzi sobie z wrogimi zwiadowcami pozbywając się ich z bezpiecznej odległości. Dzięki ich odwadze i Twoim niewątpliwym umiejętnościom przywódczym zdradziecki oddział został rozniesiony w pył. Taki los spotka każdego zdrajcę! Niestety w tej chwili usłyszałeś potęgujący warkot silników zwiastujących nadciągające ogromne siły pancerne Horusa. Jakie są Twoje następne rozkazy dla naszych żołnierzy?";
         message.classList.add("secondEncounter");
         message.classList.remove("firstEncounter");
 
