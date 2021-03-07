@@ -1,0 +1,158 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+
+
+
+
+@media (orientation:portrait) {
+  p {
+    font-size:4vw;
+  }
+  .communicator{
+    width:77%;
+  }
+}
+@media (orientation:landscape) {
+
+  .communicator{
+    width:60%;
+    font-size:2vw;
+  }
+}
+@media (orientation:landscape) and (min-width:800px) {
+
+  .communicator{
+    width:63%;
+    font-size:1.9vw;
+    
+  }
+  footer {
+    font-size:1.8vw;
+    padding: 1vw;
+    
+  }
+}
+
+
+
+
+html {
+  font-size: 10px;
+  font-family: 'Oswald', sans-serif;
+  
+}
+
+nav {
+  margin: 22px auto;
+  text-align: center;
+  width:100%;
+}
+
+ button {
+  background: rgba(255, 255, 255, 0.5);
+  filter: alpha(opacity=50);
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  padding: 5px;
+  margin-bottom: 40px;
+
+
+ }
+
+body {
+  background-image:url(https://www.itl.cat/pngfile/big/150-1504937_4-warhammer-40k-wallpaper-2560.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+
+  background-attachment: fixed;
+}
+
+
+
+
+
+.communicator {
+
+background: rgba(255, 255, 255, 0.5);
+filter: alpha(opacity=50);
+  margin: auto;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-top:16vh;
+  text-align: justify;
+}
+
+main p.description {
+  font-size: 2rem;
+  text-align: justify;
+  margin: 2%;
+  line-height: 1.5;
+}
+
+.wrap {
+  position:relative;
+
+}
+main {
+  padding-bottom:50px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  position:fixed;
+  bottom: 2vh;
+  width: 100%;
+  line-height: 1;
+  vertical-align: middle;
+  padding: 1vw ;
+  height: 50px;
+
+}
+
+footer p {
+  color: white;
+  text-align: center;
+
+  font-size: 2rem;
+}
+
+
+.gameon {
+font-size:2rem;
+display: inline;
+}
+
+.one,.two,.three,.four,.five,.six,.seven {
+  display:none;
+}
+
+.terminators{
+  contain:"";
+}
+
+.tacticalSquad{
+  contain:"";
+}
+
+.predatorTank{
+  contain:"";
+}
+.firstEncounter{
+  contain:"";
+}
+.secondEncounter{
+  contain:"";
+}
+.thirdEncounter {
+  contain:"";
+}
+.reset{
+  contain:"";
+}
